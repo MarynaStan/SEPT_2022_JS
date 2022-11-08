@@ -85,6 +85,8 @@ switch (5) {
     case  7:
         console.log('Sunday');
         break;
+    default:
+        console.log('next week');
 }
 console.log("-------------");
 
@@ -100,6 +102,9 @@ if (b >= a) {
 else {
     (a >= b);
     console.log ('a',47);
+}
+if (a = b) {
+    console.log('a', 'b');
 }
 console.log("----------");
 
