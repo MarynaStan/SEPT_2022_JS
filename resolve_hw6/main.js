@@ -146,8 +146,13 @@ carts.push({cartsSuit:'', value: 'joker', color: ''});
 carts.push({cartsSuit:'', value: 'joker', color: ''});
 console.log(carts);
 const clubsAce = carts.filter(cart => cart.cardSuit === 'spade' && cart.value === 'ace');
+console.log('clubsAce = ', clubsAce);
 const cardsSix = carts.filter(cart => cart.value === 6);
-const cardsSpade = carts.filter(cart => cart.cardSuit === 'diamond');
+console.log('cardsSix = ', cardsSix);
+const cardsRed = carts.filter(cart => cart.color === 'red');
+console.log('cardsRed = ', cardsRed);
+const cardsDiamond = carts.filter(cart => cart.cardSuit === 'diamond');
+console.log('cardsDiamond = ', cardsDiamond);
 const cardsDiamondGrater9 = carts.filter(cart => cart.cardSuit === 'clubs'&&!(cart.value<9));
 console.log(cardsDiamondGrater9);
 
